@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+rnipByRMECETtpRfbuwo7/5Z9aqtR9Hch8FENFunWEirrrGi3bEDdFQRCBkqqX5ucy38EfsM/QDRxiO2i6p1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Viatkin\\Pet3\\UsersApp\\UsersApp\\UsersApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\newyo\\.nuget\\packages\\materialdesigncolors\\2.0.5\\materialdesigncolors.2.0.5.nupkg.sha512",
+    "C:\\Users\\newyo\\.nuget\\packages\\materialdesignthemes\\4.4.0\\materialdesignthemes.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
