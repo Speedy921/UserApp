@@ -22,3 +22,12 @@ C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Debug\netcoreapp3.1\UsersApp.csproj.CopyCo
 C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Debug\netcoreapp3.1\UsersApp.dll
 C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Debug\netcoreapp3.1\UsersApp.pdb
 C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Debug\netcoreapp3.1\UsersApp.genruntimeconfig.cache
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\UsersApp.dll.config
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Viatkin\Pet3\UsersApp\UsersApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
