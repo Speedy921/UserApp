@@ -20,9 +20,21 @@ namespace UsersApp
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        ApplicationContext db;
+        
         public MainWindow()
         {
             InitializeComponent();
+
+            db = new ApplicationContext();
+
+            List<User> users = db.Users.ToList();
+            string str = "";
+            foreach (User user in users)
+                str += "Login: " + user.Login + " | ";
+
+            exampleText.Text = str;
         }
 
         private void Button_Reg_Click(object sender, RoutedEventArgs e)
@@ -61,6 +73,10 @@ namespace UsersApp
                 textBoxEmail.Background = Brushes.Transparent;
 
                 MessageBox.Show("good");
+                User user = new User(login, email, pass);
+
+                db.Users.Add(user);
+                db.SaveChanges();
             }
 
         }
