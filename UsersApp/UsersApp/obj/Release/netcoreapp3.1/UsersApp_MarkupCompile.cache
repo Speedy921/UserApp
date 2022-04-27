@@ -1,20 +1,20 @@
 ﻿UsersApp
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Debug\netcoreapp3.1\
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\
 UsersApp
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Viatkin\Pet3\UsersApp\UsersApp\App.xaml
 3636059715
 
-91846582552
+7-782931328
 197-670904845
 AuthWindow.xaml;MainWindow.xaml;UserPageWindow.xaml;
 
-False
+True
 

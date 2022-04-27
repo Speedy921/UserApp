@@ -72,7 +72,7 @@ namespace UsersApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UsersApp;V1.0.0.0;component/authwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UsersApp;component/authwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AuthWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

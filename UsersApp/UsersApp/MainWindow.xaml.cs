@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
+
 
 namespace UsersApp
 {
@@ -29,12 +31,13 @@ namespace UsersApp
 
             db = new ApplicationContext();
 
-            List<User> users = db.Users.ToList();
-            string str = "";
-            foreach (User user in users)
-                str += "Login: " + user.Login + " | ";
+            DoubleAnimation btnAnimation = new DoubleAnimation();
 
-            exampleText.Text = str;
+            btnAnimation.From = 0;
+            btnAnimation.To = 450;
+            btnAnimation.Duration = TimeSpan.FromSeconds(3);
+            RegButton.BeginAnimation(Button.WidthProperty, btnAnimation);
+
         }
 
         private void Button_Reg_Click(object sender, RoutedEventArgs e)
@@ -73,12 +76,25 @@ namespace UsersApp
                 textBoxEmail.Background = Brushes.Transparent;
 
                 MessageBox.Show("good");
+
+
                 User user = new User(login, email, pass);
 
                 db.Users.Add(user);
                 db.SaveChanges();
+
+                AuthWindow authWindow = new AuthWindow();
+                authWindow.Show();
+                Hide();
             }
 
+            
+        }
+        private void Button_window_Auth_Click(object sender, RoutedEventArgs e)
+        {
+            AuthWindow authWindow = new AuthWindow();
+            authWindow.Show();
+            Hide();
         }
     }
 }

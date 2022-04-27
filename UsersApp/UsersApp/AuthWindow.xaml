@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UsersApp"
         mc:Ignorable="d"
-        Title="AuthWindow" Height="450" Width="800">
-    <Grid>
-        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="User Application" Height="600" Width="800">
+    <Grid Background="Silver">
+        <Border MinWidth="400" Margin="15" Background="White" VerticalAlignment="Center" Padding="30" MaxWidth="550" CornerRadius="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightBlue" ShadowDepth="0"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Авторизация" FontSize="30" FontWeight="Bold" Margin="0 0 0 20"/>
+                <Grid Margin="0 0 0 20">
+                    <Button HorizontalAlignment="Left" Click="Button_Reg_click" Content="Регистрация" Cursor="Hand"/>
+                    <Button HorizontalAlignment="Right" Click="Button_window_Auth_Click" Content="Войти" Style="{StaticResource MaterialDesignFlatButton}" Cursor="Hand"/>
+                </Grid>
+
+                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Cursor="Arrow"/>
+                <PasswordBox x:Name="passBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" Cursor="Arrow"/>
+                <Button Content="Войти в кабинет"  Margin="0 20" Click="Button_Click_1" Cursor="Hand"/>
+
+            </StackPanel>
+        </Border>
+
     </Grid>
 </Window>
+

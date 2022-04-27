@@ -1,0 +1,7 @@
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\UsersApp.csproj.AssemblyReference.cache
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\AuthWindow.g.cs
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\MainWindow.g.cs
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\UserPageWindow.g.cs
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\App.g.cs
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\UsersApp_MarkupCompile.cache
+C:\Viatkin\Pet3\UsersApp\UsersApp\obj\Release\netcoreapp3.1\UsersApp_MarkupCompile.lref
